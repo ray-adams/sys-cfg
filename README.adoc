@@ -6,4 +6,4 @@
 
 ===== kotori
 * https://src.salaciouswind.com/ray/sys-cfg/src/branch/main/kotori/portage[Portage].
-* link:kotori/portage[Portage].
+* link:sys-cfg/src/branch/main/kotori/portage[Portage].
