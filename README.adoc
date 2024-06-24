@@ -1,5 +1,9 @@
 == Description
 
+=== Notice
+Links to directories within this repository point to src.salaciouswind.com.
+Therefore, it won't work as intended on mirrors.
+
 === Contents
 
 ==== System
