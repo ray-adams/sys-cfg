@@ -1,0 +1,23 @@
+# File Name: package.mask
+# File Path: /etc/portage/package.mask
+# Description: Exclude the compilation of certain packages.
+# Target System: kotori
+
+# Copyright (c) 2024 Ray Adams
+# SPDX-License-Identifier: BSD-3-Clause
+
+# Version: 1.0.0
+
+# Don't compile
+app-admin/sudo
+app-editors/nano
+sys-devel/gcc
+net-libs/nodejs::gentoo
+
+# compile failures
+=sys-apps/util-linux-2.40.1-r3
+=sys-boot/gnu-efi-3.0.18-r1
+=sys-boot/gnu-efi-3.0.18
+=sys-boot/gnu-efi-3.0.17
+=app-office/libreoffice-24.2.4.2-r1
+=app-office/libreoffice-24.2.4.2-r10

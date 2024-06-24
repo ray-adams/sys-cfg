@@ -1,0 +1,26 @@
+# Remove files that shall not be installed from this list.
+amdgpu/sienna_cichlid_pfp.bin
+amdgpu/sienna_cichlid_me.bin
+amdgpu/sienna_cichlid_mec2.bin
+amdgpu/sienna_cichlid_sdma.bin
+amdgpu/sienna_cichlid_rlc.bin
+amdgpu/sienna_cichlid_sos.bin
+amdgpu/sienna_cichlid_ta.bin
+amdgpu/sienna_cichlid_vcn.bin
+amdgpu/sienna_cichlid_ce.bin
+amdgpu/sienna_cichlid_dmcub.bin
+amdgpu/sienna_cichlid_mec.bin
+amdgpu/sienna_cichlid_smc.bin
+i915/tgl_huc_7.9.3.bin
+i915/tgl_dmc_ver2_12.bin
+i915/tgl_guc_70.1.1.bin
+iwlwifi-ty-a0-gf-a0-86.ucode
+iwlwifi-ty-a0-gf-a0.pnvm
+nvidia/ad102/gsp/bootloader-535.113.01.bin
+nvidia/ad102/gsp/gsp-535.113.01.bin
+nvidia/ad102/gsp/booter_load-535.113.01.bin
+nvidia/ad102/gsp/booter_unload-535.113.01.bin
+nvidia/ga102/gsp/gsp-535.113.01.bin
+nvidia/ad103/gsp
+rtl_nic/rtl8156b-2.fw
+rtl_nic/rtl8125b-2.fw

@@ -1,0 +1,47 @@
+# File Name: linux-firmware
+# File Path: /etc/portage/savedconfig/linux-firmware
+# Description: Whitelist of linux-firmware files
+# Target System: kotori
+#
+# Copyright (c) 2024 Ray Adams
+# SPDX-License-Identifier: BSD-3-Clause
+#
+# Version: 1.0.0
+#
+# Kotori
+## RX 6800 GPU
+amdgpu/sienna_cichlid_ce.bin
+amdgpu/sienna_cichlid_dmcub.bin
+amdgpu/sienna_cichlid_me.bin
+amdgpu/sienna_cichlid_mec.bin
+amdgpu/sienna_cichlid_mec2.bin
+amdgpu/sienna_cichlid_pfp.bin
+amdgpu/sienna_cichlid_rlc.bin
+amdgpu/sienna_cichlid_sdma.bin
+amdgpu/sienna_cichlid_smc.bin
+amdgpu/sienna_cichlid_sos.bin
+amdgpu/sienna_cichlid_ta.bin
+amdgpu/sienna_cichlid_vcn.bin
+## Motherboard NIC
+rtl_nic/rtl8125b-2.fw
+# Angelica
+## TigerLake GPU
+i915/tgl_dmc_ver2_12.bin
+i915/tgl_guc_70.1.1.bin
+i915/tgl_huc_7.9.3.bin
+## Wifi Card
+iwlwifi-ty-a0-gf-a0-86.ucode
+iwlwifi-ty-a0-gf-a0.pnvm
+## Ethernet Extension Card
+rtl_nic/rtl8156b-2.fw
+# Eleanore
+## RTX 4080
+nvidia/ad102/gsp/booter_load-535.113.01.bin
+nvidia/ad102/gsp/booter_unload-535.113.01.bin
+nvidia/ad102/gsp/bootloader-535.113.01.bin
+nvidia/ad102/gsp/gsp-535.113.01.bin
+nvidia/ad103/gsp/booter_load-535.113.01.bin
+nvidia/ad103/gsp/booter_unload-535.113.01.bin
+nvidia/ad103/gsp/bootloader-535.113.01.bin
+nvidia/ad103/gsp/gsp-535.113.01.bin
+nvidia/ga102/gsp/gsp-535.113.01.bin

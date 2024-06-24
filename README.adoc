@@ -1,0 +1,8 @@
+== Description
+
+=== Contents
+
+==== System
+
+===== kotori
+* https://src.salaciouswind.com/ray/sys-cfg/branch/main/kotori/portage[Portage configuration files].
