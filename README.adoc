@@ -5,4 +5,4 @@
 ==== System
 
 ===== kotori
-* link:sys-cfg/src/branch/main/kotori/portage[Portage].
+* https://src.salaciouswind.com/ray/sys-cfg/src/branch/main/kotori/portage[Portage].
