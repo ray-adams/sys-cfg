@@ -1,7 +1,7 @@
 == Description
 
 === Notice
-Links to directories within this repository point to src.salaciouswind.com.
+Links to directories within this repository point to https://src.salaciouswind.com[src.salaciouswind.com].
 Therefore, it won't work as intended on mirrors.
 
 === Contents
