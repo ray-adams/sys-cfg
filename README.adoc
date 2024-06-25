@@ -8,5 +8,8 @@ Therefore, it won't work as intended on mirrors.
 
 ==== System
 
+===== eleanore
+* https://src.salaciouswind.com/ray/sys-cfg/src/branch/main/eleanore/portage[Portage].
+
 ===== kotori
 * https://src.salaciouswind.com/ray/sys-cfg/src/branch/main/kotori/portage[Portage].

@@ -1,0 +1,13 @@
+# File Name: eleanore-python3_11.use
+# File Path: /etc/portage/package.use/eleanore-python3_11.use
+# Description: Require python3_11 target USE flags
+
+# Copyright (c) 2024 Ray Adams
+# SPDX-License-Identifier: BSD-3-Clause
+
+# Version: 1.0.0
+
+dev-python/cython                python_targets_python3_11
+dev-python/jaraco-text           python_targets_python3_11
+dev-python/more-itertools        python_targets_python3_11
+dev-python/networkx              python_targets_python3_11

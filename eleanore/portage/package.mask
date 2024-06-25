@@ -1,0 +1,12 @@
+# File Name: package.mask
+# File Path: /etc/portage/package.mask
+# Description: Exclude the compilation of certain packages.
+
+# Copyright (c) 2024 Ray Adams
+# SPDX-License-Identifier: BSD-3-Clause
+
+# Version: 1.0.0
+
+# Don't compile
+app-admin/sudo
+net-libs/webkit-gtk

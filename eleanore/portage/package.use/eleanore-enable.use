@@ -1,0 +1,10 @@
+# File Name: eleanore-accept.use
+# File Path: /etc/portage/package.use/eleanore-accept.use
+# Description: Enable certain USE flags per package to enable features at compile time
+
+# Copyright (c) 2024 Ray Adams
+# SPDX-License-Identifier: BSD-3-Clause
+
+# Version: 1.0.0
+
+dev-lang/rust-bin                               abi_x86_32

@@ -1,0 +1,24 @@
+# File Name: package.license
+# File Path: /etc/portage/package.license
+# Description: Allow packages with a specific license
+
+# Copyright (c) 2024 Ray Adams
+# SPDX-License-Identifier: BSD-3-Clause
+
+# Version: 1.0.1
+
+sys-kernel/linux-firmware                       @BINARY-REDISTRIBUTABLE
+
+app-arch/unrar                                  unRAR
+
+games-action/minecraft-launcher                 Mojang
+
+games-util/steam-launcher                       ValveSteamLicense
+
+dev-db/mongodb                                  SSPL-1
+
+net-wireless/unifi                              ubiquiti
+
+x11-drivers/nvidia-drivers                      NVIDIA-r2
+
+dev-util/nvidia-cuda-toolkit                    NVIDIA-CUDA
