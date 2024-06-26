@@ -1,12 +1,11 @@
-# File Name: deny.use
-# File Path: /etc/portage/package.use/deny.use
-# Description: Deny certain use flags per package to disable features at compile time
-# Target System: kotori
+# File Name: disable.use
+# File Path: /etc/portage/package.use/disable.use
+# Description: Disable certain USE flags per package to disable features at compile time
 
 # Copyright (c) 2024 Ray Adams
 # SPDX-License-Identifier: BSD-3-Clause
 
-# Version: 1.0.0
+# Version: 1.0.1
 
 app-admin/keepassxc                             -network
 

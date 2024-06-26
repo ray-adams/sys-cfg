@@ -2,11 +2,10 @@
 # File Path: /etc/portage/package.unmask
 # Description: Unmask certain masked packages to compile regardless of warning
 # messages.
-# Target System: kotori
 
 # Copyright (c) 2024 Ray Adams
 # SPDX-License-Identifier: BSD-3-Clause
 
-# Version: 1.0.0
+# Version: 1.0.1
 
 sys-fs/bcachefs-tools

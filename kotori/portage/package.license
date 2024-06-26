@@ -1,13 +1,14 @@
 # File Name: package.license
 # File Path: /etc/portage/package.license
 # Description: Allow packages with a specific license
-# Target System: kotori
 
 # Copyright (c) 2024 Ray Adams
 # SPDX-License-Identifier: BSD-3-Clause
 
-# Version: 1.0.0
+# Version: 1.0.1
 
-sys-kernel/linux-firmware @BINARY-REDISTRIBUTABLE
-sys-firmware/intel-microcode intel-ucode
-app-arch/unrar unRAR
+sys-kernel/linux-firmware                       @BINARY-REDISTRIBUTABLE
+
+sys-firmware/intel-microcode                    intel-ucode
+
+app-arch/unrar                                  unRAR

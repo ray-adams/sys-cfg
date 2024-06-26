@@ -1,12 +1,11 @@
-# File Name: accept.use
-# File Path: /etc/portage/package.use/accept.use
-# Description: Accept certain use flags per package to enable features at compile time
-# Target System: kotori
+# File Name: enable.use
+# File Path: /etc/portage/package.use/enable.use
+# Description: Enable certain USE flags per package to enable features at compile time
 
 # Copyright (c) 2024 Ray Adams
 # SPDX-License-Identifier: BSD-3-Clause
 
-# Version: 1.0.0
+# Version: 1.0.1
 
 app-admin/keepassxc                             autotype yubikey
 

@@ -1,14 +1,16 @@
 # File Name: x.use
 # File Path: /etc/portage/package.use/x.use
-# Description: Accept X use flag per package to enable X11 support at compile time
-# Target System: kotori
+# Description: Enable X USE flag per package to enable X11 support at compile time
 
 # Copyright (c) 2024 Ray Adams
 # SPDX-License-Identifier: BSD-3-Clause
 
-# Version: 1.0.0
+# Version: 1.0.1
 
 app-admin/keepassxc                             X
+
+app-emulation/wine-staging                      X
+app-emulation/wine-vanilla                      X
 
 app-misc/spacenavd                              X
 

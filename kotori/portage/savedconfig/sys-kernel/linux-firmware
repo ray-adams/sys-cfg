@@ -1,12 +1,11 @@
 # File Name: linux-firmware
 # File Path: /etc/portage/savedconfig/linux-firmware
 # Description: Whitelist of linux-firmware files
-# Target System: kotori
 #
 # Copyright (c) 2024 Ray Adams
 # SPDX-License-Identifier: BSD-3-Clause
 #
-# Version: 1.0.0
+# Version: 1.0.1
 #
 # Kotori
 ## RX 6800 GPU
