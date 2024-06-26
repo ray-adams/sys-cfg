@@ -13,3 +13,6 @@ Therefore, it won't work as intended on mirrors.
 
 ===== kotori
 * https://src.salaciouswind.com/ray/sys-cfg/src/branch/main/kotori/portage[Portage].
+
+===== Syncing Scripts
+* https://src.salaciouswind.com/ray/sys-cfg/src/branch/main/kotori/sync_scripts/[sync_scripts].
