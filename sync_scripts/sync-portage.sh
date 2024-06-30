@@ -7,7 +7,7 @@
 # Copyright 2024 Ray Adams
 # SPDX-Licence-Identifier: BSD-3-Clause
 
-# Version: 1.0.0
+# Version: 1.1.0
 
 # Obtain the path for <git_root>
 working_dir="$(git rev-parse --show-toplevel)"
@@ -18,13 +18,13 @@ kotori() {
     rsync -ruvh --delete \
         --exclude ".*" \
         --exclude "make.conf" \
-        --exclude "package.license" \
-        --exclude "package.mask" \
         --exclude "package.unmask" \
         --exclude "repos.conf" \
         --exclude "savedconfig" \
         "/etc/portage/env" \
         "/etc/portage/package.env" \
+        "/etc/portage/package.license" \
+        "/etc/portage/package.mask" \
         "/etc/portage/package.use" \
         "/etc/portage/sets" \
         "${working_dir}/kotori/portage/"
@@ -32,8 +32,6 @@ kotori() {
     # Sync the files excluded before.
     rsync -uvh \
         "/etc/portage/make.conf" \
-        "/etc/portage/package.license" \
-        "/etc/portage/package.mask" \
         "/etc/portage/package.unmask" \
         "/etc/portage/repos.conf" \
         "${working_dir}/kotori/portage/"
