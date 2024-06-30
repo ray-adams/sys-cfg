@@ -1,0 +1,11 @@
+# File Name: deny.mask
+# File Path: /etc/portage/package.mask/deny.mask
+# Description: Exclude the compilation of certain packages.
+
+# Copyright (c) 2024 Ray Adams
+# SPDX-License-Identifier: BSD-3-Clause
+
+# Version: 1.0.0
+
+app-admin/sudo
+app-editors/nano
