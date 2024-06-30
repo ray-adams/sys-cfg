@@ -1,11 +1,11 @@
 # File Name: llvm-tc
 # File Path: /etc/portage/sets/llvm-tc
-# Description: Portage set for easy recompilation of the entire LLVM toolchain
+# Description: Portage set for easy recompilation of the entire LLVM toolchain.
 
 # Copyright (c) 2024 Ray Adams
 # SPDX-License-Identifier: BSD-3-Clause
 
-# Version: 1.0.1
+# Version: 1.0.2
 
 sys-devel/clang
 sys-devel/clang-common

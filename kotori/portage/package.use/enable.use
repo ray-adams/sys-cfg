@@ -1,11 +1,11 @@
 # File Name: enable.use
 # File Path: /etc/portage/package.use/enable.use
-# Description: Enable certain USE flags per package to enable features at compile time
+# Description: Enable certain USE flags per package to enable features at compile time.
 
 # Copyright (c) 2024 Ray Adams
 # SPDX-License-Identifier: BSD-3-Clause
 
-# Version: 1.2.1
+# Version: 1.3.2
 
 app-admin/keepassxc                             autotype yubikey
 
@@ -135,7 +135,3 @@ www-client/firefox                              screencast eme-free geckodriver
 x11-libs/gdk-pixbuf                             jpeg
 x11-libs/libdrm                                 video_cards_radeon
 x11-libs/wxGTK                                  gstreamer libnotify opengl tiff
-
-x11-misc/dmenu                                  savedconfig xinerama
-
-x11-wm/dwm                                      savedconfig xinerama

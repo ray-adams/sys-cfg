@@ -1,11 +1,11 @@
 # File Name: x.use
 # File Path: /etc/portage/package.use/x.use
-# Description: Enable X USE flag per package to enable X11 support at compile time
+# Description: Enable X USE flag per package to enable X11 support at compile time.
 
 # Copyright (c) 2024 Ray Adams
 # SPDX-License-Identifier: BSD-3-Clause
 
-# Version: 1.0.1
+# Version: 1.0.2
 
 app-admin/keepassxc                             X
 

@@ -1,11 +1,11 @@
 # File Name: python3_11.use
 # File Path: /etc/portage/package.use/python3_11.use
-# Description: Require python3_11 target USE flags
+# Description: Require python3_11 target USE flags.
 
 # Copyright (c) 2024 Ray Adams
 # SPDX-License-Identifier: BSD-3-Clause
 
-# Version: 1.0.1
+# Version: 1.0.2
 
 app-admin/setools                       python_targets_python3_11
 

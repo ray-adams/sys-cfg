@@ -1,11 +1,11 @@
 # File Name: disable.use
 # File Path: /etc/portage/package.use/disable.use
-# Description: Disable certain USE flags per package to disable features at compile time
+# Description: Disable certain USE flags per package to disable features at compile time.
 
 # Copyright (c) 2024 Ray Adams
 # SPDX-License-Identifier: BSD-3-Clause
 
-# Version: 1.0.1
+# Version: 1.0.2
 
 app-admin/keepassxc                             -network
 
