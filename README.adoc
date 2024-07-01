@@ -9,7 +9,21 @@ Therefore, it won't work as intended on mirrors.
 ==== System
 
 ===== eleanore
-* https://src.salaciouswind.com/ray/sys-cfg/src/branch/main/eleanore/portage[Portage].
+* https://src.salaciouswind.com/ray/sys-cfg/src/branch/main/eleanore/portage[portage].
 
 ===== kotori
-* https://src.salaciouswind.com/ray/sys-cfg/src/branch/main/kotori/portage[Portage].
+* https://src.salaciouswind.com/ray/sys-cfg/src/branch/main/kotori/chrony[chrony].
+* https://src.salaciouswind.com/ray/sys-cfg/src/branch/main/kotori/conf.d[conf.d].
+* https://src.salaciouswind.com/ray/sys-cfg/src/branch/main/kotori/doas.conf[doas.conf].
+* https://src.salaciouswind.com/ray/sys-cfg/src/branch/main/kotori/environment[environment].
+* https://src.salaciouswind.com/ray/sys-cfg/src/branch/main/kotori/exports[exports].
+* https://src.salaciouswind.com/ray/sys-cfg/src/branch/main/kotori/fstab[fstab].
+* https://src.salaciouswind.com/ray/sys-cfg/src/branch/main/kotori/hostname[hostname].
+* https://src.salaciouswind.com/ray/sys-cfg/src/branch/main/kotori/libvirt[libvirt].
+* https://src.salaciouswind.com/ray/sys-cfg/src/branch/main/kotori/modules-load.d[modules-load.d].
+* https://src.salaciouswind.com/ray/sys-cfg/src/branch/main/kotori/pam[pam.d].
+* https://src.salaciouswind.com/ray/sys-cfg/src/branch/main/kotori/portage[portage].
+* https://src.salaciouswind.com/ray/sys-cfg/src/branch/main/kotori/resolv.conf.head[resolv.conf.head].
+* https://src.salaciouswind.com/ray/sys-cfg/src/branch/main/kotori/stubby[stubby].
+* https://src.salaciouswind.com/ray/sys-cfg/src/branch/main/kotori/sysctl.conf[sysctl.conf].
+* https://src.salaciouswind.com/ray/sys-cfg/src/branch/main/kotori/zsh[zsh].
