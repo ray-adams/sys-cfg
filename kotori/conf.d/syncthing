@@ -1,0 +1,23 @@
+# File Name: syncthing
+# File Path: /etc/conf.d/syncthing
+# Description: Syncthing daemon configuration file.
+
+# Copyright (c) 2024 Ray Adams
+# SPDX-License-Identifier: BSD-3-Clause
+
+# Version 1.0.0
+
+SYNCTHING_USER="syncthing"
+SYNCTHING_GROUP="syncthing"
+
+SYNCTHING_HOMEDIR="/var/lib/syncthing/.config/syncthing"
+SYNCTHING_LOGFILE="/var/log/syncthing/syncthing.log"
+
+SYNCTHING_UMASK=007
+
+SYNCTHING_IONICE="0"
+SYNCTHING_NICE="0"
+
+SYNCTHING_GUI_ADDRESS="http://0.0.0.0:8384"
+
+SYNCTHING_OPTS=""

@@ -1,0 +1,19 @@
+# File Name: net
+# File Path: /etc/conf.d/net
+# Description: Netifrc configuration file.
+
+# Copyright (c) 2024 Ray Adams
+# SPDX-License-Identifier: BSD-3-Clause
+
+# Version 1.0.0
+
+# host single NIC bridge.
+config_enp7s0="null"
+bridge_br0="enp7s0"
+
+# Bridge br0 static configuration.
+config_br0="10.0.0.2/8"
+routes_br0="default via 10.0.0.1"
+
+bridge_forward_delay_br0=0
+bridge_hello_time_br0=1000

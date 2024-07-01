@@ -1,0 +1,12 @@
+# File Name: resolv.conf.head
+# File Path: /etc/resolv.conf.head
+# Description: System wide resolv.conf.head file for persistent resolv.conf
+# configuration.
+
+# Copyright (c) 2024 Ray Adams
+# SPDX-License-Identifier: BSD-3-Clause
+
+# Version 1.0.0
+
+nameserver 127.0.0.1
+nameserver 0::1

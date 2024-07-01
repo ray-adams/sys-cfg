@@ -1,0 +1,18 @@
+# File Name: su
+# File Path: /etc/pam.d/su
+# Description: PAM configuration for su.
+
+# Copyright (c) 2024 Ray Adams
+# SPDX-License-Identifier: BSD-3-Clause
+
+# Version 1.0.0
+
+auth            sufficient      pam_u2f.so      authfile=/etc/u2f_mappings
+auth		sufficient	pam_rootok.so
+auth		required	pam_wheel.so use_uid
+auth		include		system-auth
+account		include		system-auth
+password	include		system-auth
+session		include		system-auth
+session		required	pam_env.so
+session		optional	pam_xauth.so

@@ -1,0 +1,14 @@
+# File Name: keymaps
+# File Path: /etc/conf.d/keymaps
+# Description: Keymap configuration file for virtual consoles (TTYs).
+
+# Copyright (c) 2024 Ray Adams
+# SPDX-License-Identifier: BSD-3-Clause
+
+# Version 1.0.0
+
+keymap="uk"
+windowkeys="YES"
+extended_keymaps=""
+dumpkeys_charset=""
+fix_euro="NO"
