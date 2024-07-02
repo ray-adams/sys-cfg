@@ -1,11 +1,11 @@
 # File Name: fstab
 # File Path: /etc/fstab
-# Description: System's fstab configuration.
+# Description: System's fstab configuration file.
 
 # Copyright (c) 2024 Ray Adams
 # SPDX-License-Identifier: BSD-3-Clause
 
-# Version 1.0.0
+# Version: 1.0.0
 
 UUID=[REDACTED]       /                           bcachefs         rw                                                                        0 0
 UUID=[REDACTED]       /boot/                      vfat             noauto,noatime,nodev,nosuid,noexec                                        0 0
