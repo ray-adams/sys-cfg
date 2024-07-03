@@ -1,13 +1,13 @@
 #!/bin/sh
 
 # Script Name: sync_cfg.sh
-# File Path: <git_root>/sync_cfg.sh
+# Script Path: <git_root>/sync_cfg.sh
 # Description: Sync system configuration files to <git_root>/<system>/
 
 # Copyright 2024 Ray Adams
 # SPDX-Licence-Identifier: BSD-3-Clause
 
-# Version: 1.0.0
+# Version: 1.0.1
 
 # Obtain the path for <git_root>
 working_dir="$(git rev-parse --show-toplevel)"
