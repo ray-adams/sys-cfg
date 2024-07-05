@@ -5,11 +5,17 @@ Links to directories within this repository point to https://src.salaciouswind.c
 Therefore, it won't work as intended on mirrors.
 
 === Contents
+These configuration files are not synced from a running system but are manually
+created since the location is only accessible by root and/or redaction of
+sensitive information is required.
+
+==== Manual Configuration 
+* https://src.salaciouswind.com/ray/sys-cfg/src/branch/main/system/manual_cfg/[manual_cfg].
 
 ==== Systems
 * https://src.salaciouswind.com/ray/sys-cfg/src/branch/main/system/angelica/[angelica].
 * https://src.salaciouswind.com/ray/sys-cfg/src/branch/main/system/eleanore-compile/[eleanore-compile].
 * https://src.salaciouswind.com/ray/sys-cfg/src/branch/main/system/kotori/[kotori].
 
-===== Scripts
+==== Scripts
 * https://src.salaciouswind.com/ray/sys-cfg/src/branch/main/scripts/sync_cfg.sh[sync_cfg.sh].
