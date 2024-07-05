@@ -1,0 +1,25 @@
+# File Name: hosts
+# File Path: /etc/hosts
+# Description: System wide hosts file
+
+# Copyright (c) 2024 Ray Adams
+# SPDX-License-Identifier: BSD-3-Clause
+
+# Version 1.1.0
+
+# Local Network
+10.0.0.1                skynet
+10.0.0.2                kotori
+10.0.0.3                angelica
+10.0.0.5                kanami
+
+# Virtual Machines
+10.0.1.1                eleanore-compile
+
+# VPS
+[REDACTED]              albedo
+[REDACTED]              kanami-vps
+
+# Localhost
+127.0.0.1               localhost       [REDACTED]
+::1                     localhost
