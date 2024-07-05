@@ -1,0 +1,14 @@
+# File Name: package.license
+# File Path: /etc/portage/package.license/package.license
+# Description: Allow installation of packages with a specific license.
+
+# Copyright (c) 2024 Ray Adams
+# SPDX-License-Identifier: BSD-3-Clause
+
+# Version: 1.1.2
+
+sys-kernel/linux-firmware                       @BINARY-REDISTRIBUTABLE
+
+sys-firmware/intel-microcode                    intel-ucode
+
+app-arch/unrar                                  unRAR

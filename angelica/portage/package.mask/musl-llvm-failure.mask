@@ -1,0 +1,16 @@
+# File Name: musl-llvm-failure.mask
+# File Path: /etc/portage/package.mask/musl-llvm-failure.mask
+# Description: Exclude the compilation of certain package versions as they fail
+# on musl-llvm systems.
+
+# Copyright (c) 2024 Ray Adams
+# SPDX-License-Identifier: BSD-3-Clause
+
+# Version: 1.0.0
+
+=sys-apps/util-linux-2.40.1-r3
+=sys-boot/gnu-efi-3.0.18-r1
+=sys-boot/gnu-efi-3.0.18
+=sys-boot/gnu-efi-3.0.17
+=app-office/libreoffice-24.2.4.2-r1
+=app-office/libreoffice-24.2.4.2-r10

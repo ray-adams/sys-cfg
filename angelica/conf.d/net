@@ -1,0 +1,16 @@
+# File Name: net
+# File Path: /etc/conf.d/net
+# Description: Netifrc configuration file.
+
+# Copyright (c) 2024 Ray Adams
+# SPDX-License-Identifier: BSD-3-Clause
+
+# Version 1.0.0
+
+# Ethernet (Home)
+config_enp0s13f0u1="10.0.0.3/8"
+routes_enp0s13f0u1="default via 10.0.0.1"
+
+# Wireless (Default)
+modules_wlan0="wpa_supplicant"
+config_wlp17s0="dhcp"

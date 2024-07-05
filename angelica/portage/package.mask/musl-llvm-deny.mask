@@ -1,0 +1,11 @@
+# File Name: musl-llvm-deny.mask
+# File Path: /etc/portage/package.mask/musl-llvm-deny.mask
+# Description: Exclude the compilation of certain packages for musl-llvm systems.
+
+# Copyright (c) 2024 Ray Adams
+# SPDX-License-Identifier: BSD-3-Clause
+
+# Version: 1.0.0
+
+sys-devel/gcc
+net-libs/nodejs::gentoo
