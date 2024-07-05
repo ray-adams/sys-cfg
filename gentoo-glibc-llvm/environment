@@ -1,0 +1,14 @@
+# File Name: environment
+# File Path: /etc/environment
+# Description: System wide environment variables.
+
+# Copyright (c) 2024 Ray Adams
+# SPDX-License-Identifier: BSD-3-clause
+
+# Version: 1.0.0
+
+CC=clang
+CXX=clang++
+LD_PRELOAD="/usr/local/lib/libhardened_malloc.so"
+LLVM=1
+TZ="GMT0BST,M3.5.0/1,M10.5.0"

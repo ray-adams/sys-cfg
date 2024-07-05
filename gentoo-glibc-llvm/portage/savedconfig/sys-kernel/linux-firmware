@@ -1,0 +1,20 @@
+# File Name: linux-firmware
+# File Path: /etc/portage/savedconfig/linux-firmware
+# Description: Whitelist of linux-firmware files
+#
+# Copyright (c) 2024 Ray Adams
+# SPDX-License-Identifier: BSD-3-Clause
+#
+# Version: 1.0.0
+#
+# Eleanore
+## RTX 4080
+nvidia/ad102/gsp/booter_load-535.113.01.bin
+nvidia/ad102/gsp/booter_unload-535.113.01.bin
+nvidia/ad102/gsp/bootloader-535.113.01.bin
+nvidia/ad102/gsp/gsp-535.113.01.bin
+nvidia/ad103/gsp/booter_load-535.113.01.bin
+nvidia/ad103/gsp/booter_unload-535.113.01.bin
+nvidia/ad103/gsp/bootloader-535.113.01.bin
+nvidia/ad103/gsp/gsp-535.113.01.bin
+nvidia/ga102/gsp/gsp-535.113.01.bin

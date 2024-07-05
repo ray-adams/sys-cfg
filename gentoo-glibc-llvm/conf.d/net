@@ -1,0 +1,12 @@
+# File Name: net
+# File Path: /etc/conf.d/net
+# Description: Netifrc configuration file.
+
+# Copyright (c) 2024 Ray Adams
+# SPDX-License-Identifier: BSD-3-Clause
+
+# Version 1.0.0
+
+# enp1s0
+config_enp1s0="10.0.1.1/8"
+routes_enp1s0="default via 10.0.0.1"

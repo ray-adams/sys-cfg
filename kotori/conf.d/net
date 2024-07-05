@@ -5,9 +5,9 @@
 # Copyright (c) 2024 Ray Adams
 # SPDX-License-Identifier: BSD-3-Clause
 
-# Version 1.0.0
+# Version 1.0.1
 
-# host single NIC bridge.
+# Host single NIC bridge.
 config_enp7s0="null"
 bridge_br0="enp7s0"
 

@@ -1,0 +1,14 @@
+# File Name: glibc-llvm.license
+# File Path: /etc/portage/package.license/glibc-llvm.license
+# Description: Allow installation of packages with a specific license for glibc-llvm systems.
+
+# Copyright (c) 2024 Ray Adams
+# SPDX-License-Identifier: BSD-3-Clause
+
+# Version: 1.0.0
+
+games-action/minecraft-launcher		  Mojang
+
+games-util/steam-launcher                 ValveSteamLicense
+
+x11-drivers/nvidia-drivers                NVIDIA-r2
