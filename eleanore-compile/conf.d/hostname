@@ -5,6 +5,6 @@
 # Copyright (c) 2024 Ray Adams
 # SPDX-License-Identifier: BSD-3-Clause
 
-# Version: 1.0.0
+# Version: 1.1.0
 
-hostname="glibc-llvm"
+hostname="eleanore-compile"
