@@ -7,8 +7,9 @@ Therefore, it won't work as intended on mirrors.
 === Contents
 
 ==== Systems
-* https://src.salaciouswind.com/ray/sys-cfg/src/branch/main/eleanore-compile/[eleanore-compile].
-* https://src.salaciouswind.com/ray/sys-cfg/src/branch/main/kotori/[kotori].
+* https://src.salaciouswind.com/ray/sys-cfg/src/branch/main/system/angelica/[angelica].
+* https://src.salaciouswind.com/ray/sys-cfg/src/branch/main/system/eleanore-compile/[eleanore-compile].
+* https://src.salaciouswind.com/ray/sys-cfg/src/branch/main/system/kotori/[kotori].
 
 ===== Scripts
-* https://src.salaciouswind.com/ray/sys-cfg/src/branch/main/sync_cfg.sh[sync_cfg.sh].
+* https://src.salaciouswind.com/ray/sys-cfg/src/branch/main/scripts/sync_cfg.sh[sync_cfg.sh].
