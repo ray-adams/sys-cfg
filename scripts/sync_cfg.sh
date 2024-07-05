@@ -7,7 +7,7 @@
 # Copyright 2024 Ray Adams
 # SPDX-Licence-Identifier: BSD-3-Clause
 
-# Version: 2.5.1
+# Version: 2.6.1
 
 # Obtain the path for <git_root>
 working_dir="$(git rev-parse --show-toplevel)"
@@ -163,44 +163,6 @@ sync() {
             "${system}:/etc/portage/savedconfig/sys-kernel/linux-firmware" \
             "${working_dir}/system/${system}/portage/savedconfig/sys-kernel/" || { echo "${red}Syncing linux-firmware configuration for ${system} failed.${nc}"; exit 1; }
         echo "${green}Synced linux-firmware configuration for ${system} successfully.${nc}"
-    fi
-
-    # Manual configurations
-    echo "${green}Starting to sync manual configurations for system ${system}.${nc}"
-
-    ## exports
-    cp "${working_dir}/manual_cfg/exports" "${working_dir}/system/${system}/"|| { echo "${red}Copying exports for ${system} failed.${nc}"; exit 1; }
-    echo "${green}Copied exports for ${system} successfully.${nc}"
-
-    ## fstab
-    cp "${working_dir}/manual_cfg/fstab" "${working_dir}/system/${system}/"|| { echo "${red}Copying fstab for ${system} failed.${nc}"; exit 1; }
-    echo "${green}Copied fstab for ${system} successfully.${nc}"
-
-    ## hosts
-    cp "${working_dir}/manual_cfg/hosts" "${working_dir}/system/${system}/"|| { echo "${red}Copying hosts for ${system} failed.${nc}"; exit 1; }
-    echo "${green}Copied hosts for ${system} successfully.${nc}"
-
-    ## ssh
-    cp -r "${working_dir}/manual_cfg/ssh" "${working_dir}/system/${system}/"|| { echo "${red}Copying ssh configuration for ${system} failed.${nc}"; exit 1; }
-    echo "${green}Copied ssh configuration for ${system} successfully.${nc}"
-
-    # System specific manual configurations
-    echo "${green}Starting to sync system specific manual configurations for system ${system}.${nc}"
-
-    ## angelica
-
-    ### wpa_supplicant.conf
-    if [ "${system}" = "angelica" ]; then
-        cp -r "${working_dir}/manual_cfg/wpa_supplicant" "${working_dir}/system/${system}/"|| { echo "${red}Copying wpa_supplicant configuration for ${system} failed.${nc}"; exit 1; }
-        echo "${green}Copied wpa_supplicant configuration for ${system} successfully.${nc}"
-    fi
-
-    ## kotori
-
-    ### conf.d/dmcrypt
-    if [ "${system}" = "kotori" ]; then
-        cp -r "${working_dir}/manual_cfg/conf.d/dmcrypt" "${working_dir}/system/${system}/"|| { echo "${red}Copying dmcrypt configuration for ${system} failed.${nc}"; exit 1; }
-        echo "${green}Copied dmcrypt configuration for ${system} successfully.${nc}"
     fi
 }
 
