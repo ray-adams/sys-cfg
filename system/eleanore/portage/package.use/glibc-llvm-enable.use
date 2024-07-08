@@ -5,8 +5,9 @@
 # Copyright (c) 2024 Ray Adams
 # SPDX-License-Identifier: BSD-3-Clause
 
-# Version: 1.0.0
+# Version: 1.2.0
 
+dev-lang/rust			profiler
 dev-lang/rust-bin               profiler
 
 dev-libs/icu                    abi_x86_32
@@ -18,3 +19,5 @@ net-libs/nodejs                 inspector
 sys-libs/libomp                 abi_x86_32
 
 virtual/rust                    profiler
+
+x11-drivers/nvidia-drivers      modules-sign
