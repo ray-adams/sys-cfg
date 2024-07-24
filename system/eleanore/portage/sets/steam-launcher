@@ -1,0 +1,14 @@
+# File Name: steam-launcher
+# File Path: /etc/portage/sets/steam-launcher
+# Description: Required packages for steam.
+
+# Copyright (c) 2024 Ray Adams
+# SPDX-License-Identifier: BSD-3-Clause
+
+# Version: 1.1.0
+
+games-util/steam-launcher
+
+gnome-extra/zenity
+
+x11-libs/gtk+:2

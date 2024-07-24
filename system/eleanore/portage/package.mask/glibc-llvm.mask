@@ -1,0 +1,8 @@
+# File Name: glibc-llvm.mask
+# File Path: /etc/portage/pakage.mask/glibc-llvm.mask
+# Description: Package mask for glibc-llvm systems.
+
+# Copyright (c) 2024 Ray Adams
+# SPDX-License-Identifier: BSD-3-Clause
+
+# Version: 1.0.0
